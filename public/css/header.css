@@ -1,0 +1,20 @@
+input{
+    background-color:#f5f5f5 !important;
+    border-color: #0aa1ed !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+.a1:hover{
+    text-decoration: none;
+}
+.a2{
+    color:#ccc;
+}
+.a2:hover{
+    color:#666;
+    text-decoration: none;
+}
