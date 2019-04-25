@@ -1,0 +1,106 @@
+.f1_top{
+    font-size:16px;
+    color:#808080 ;
+    background-image:linear-gradient(to bottom,#f0f0f0 0%, #e0e0e0 100%) ;
+}
+.img1{
+    width: 100%;
+    transition:transform 0.5s linear;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+h5{
+    color:#0aa1ed;
+    font:16px simhei;
+}
+.a1,.pp,.ss{
+    font-size: 15px;
+    color:#808080 ;
+}
+.a1:hover,.alast:hover{
+    color:#333;
+    text-decoration: none;
+}
+.span1{
+    width: 24px;height: 24px;
+    color:#fff;
+    font-size:32px;
+    line-height: 15px;text-align: center;
+    background-image:linear-gradient(to bottom,#f0f0f0 0%, #e0e0e0 100%) !important;
+}
+.input1{
+    font-size: 18px;
+    width:25px;height:24px ;border:0;
+    text-align: center;
+}
+.card{
+    height:26rem;
+}
+.right1{
+    margin-top:1.7rem;
+}
+.b_b{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+    .img1{width:50% !important;
+        margin:0 auto;
+    }
+    .b_b{
+        width:60%;
+        margin:0 auto;
+        margin-top:2rem !important;
+    }
+}
+@media screen and (min-width: 768px) and ( max-width: 991px){
+    .card{
+        height:30rem !important;
+    }
+}
+.card2{
+    height: 18rem;
+}
+
+@media screen and (max-width: 991px){
+    .card2{
+        height: 12rem !important;
+    }
+    .right2{
+        width: 96%;
+        margin:0 auto !important;
+    }
+}
+.alast{
+    color:#808080;
+}
+.span2{
+    padding:2px;
+    width: 16px;height: 14px;
+    color:#fff;
+    font-size:18px;
+    line-height: 8px;text-align: center;
+    background-image:linear-gradient(to bottom,#f0f0f0 0%, #e0e0e0 100%) !important;
+}
+.input2{
+    font-size: 12px;
+    width:16px;height:16px ;border:0;
+    text-align: center;
+}
+.span3{
+    font-size:24px!important;
+    line-height: 5px!important;
+}
+ul>li{
+    border-top:1px dashed #808080 !important;
+    border-bottom:1px dashed #808080 !important;
+    border-left:0 !important;
+    border-right:0 !important;
+}
+.d9{
+    color:#fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: #ccc;
+}
