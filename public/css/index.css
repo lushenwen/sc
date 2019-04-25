@@ -13,5 +13,124 @@
     top:40%;
     background-color:rgba(0,0,0,0.3);
     border-radius: 4px;
+}
+.floor_top>span{
+    font-size:24px;
+}
+.floor_top{
+    border-bottom: 2px solid #d9d9d9 ;
+}
+.d1{
+    background-color:#e8e8e8;
+    height:377px;
+}
+.d2{
+    background-color:#e8e8e8;
+    height: 233px;
+}
+h5{
+    font: 32px simhei;
+    color:#333;
+}
+.p1{
+    color:#666;
+    font-size: 12px;
+}
+.p2{
+    color:#0aa1ed;
+    font-size: 24px;
+}
+@media screen and (min-width:768px ){
+    .img_1{
+        margin-top:-14rem;
+        margin-right:3rem;
+    }
+}
+@media screen and (max-width:767px ){
+    .img_1{
+        margin-top:-16rem;
+        margin-right:2rem;
+    }
+}
+.img_1,.img_2,.img_3,.left_img{
+    transition:transform 0.5s linear;
+}
+.img_1:hover,.img_2:hover,.img_3:hover,.left_img:hover{
+    transform: scale(1.1);
+}
+.f1_right{
+    width:70%;
+}
+@media screen and (min-width:992px ) {
+    .img_2,.img_3 {
+        margin-top: -10rem;
+        margin-right: 2rem;
+    }
+    .p4,.left_h6{
+        margin: 5px auto 0 !important;
+    }
+    .left_a{
+        margin: 2px auto 0 !important;
+    }
+}
+@media screen and (min-width:768px ) and (max-width: 991px) {
+    .img_2 {
+        margin-top: -8rem;
+        margin-right: 8rem;
+    }
+    .img_3{
+        margin-top: -8rem;
+        margin-right: 9rem !important;
+    }
+
+    .p4,.left_h6{
+        margin: 0 auto 0 !important;
+    }
+    .left_h6{
+        margin-top:-5px!important;
+    }
+    .left_a{
+        margin: 0 auto 0 !important;
+    }
+}
+@media screen and (max-width:767px ) {
+    .img_2 ,.img_3{
+        margin-top: -8rem;
+        margin-right: 5rem;
+    }
+    .p4,.left_h6{
+        margin: 8px auto 0 !important;
+    }
+    .left_a{
+        margin: 8px auto 0 !important;
+    }
+}
+h6{
+    font: 22px simhei;
+    color:#333;
+}
+.p2,.p3{
+    color:#0aa1ed;
+    font-size: 22px;
+}
+.f2_right{
+    width:50%;
+}
+.left_h6{
+    font: 12px simhei;
+    color:#333;
+}
+.p4{
+    color:#0aa1ed;
+    font-size: 24px;
+    font-weight: bold;
 
 }
+.end_img{
+    margin-top: -5px !important;
+}
+.end_img1{
+    margin-top: 0px !important;
+}
+
+
